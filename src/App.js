@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Navbar from './components/Navbar';
+import StateBasic from './components/StateBasic';
+import Counter from './components/Counter';
+import UseE from './components/UseE';
+import Todo from './components/Todo';
+import Mapping from './components/Mapping';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Login/> */}
+    {/* <Signup/> */}
+    {/* <Navbar/> */}
+    {/* <StateBasic/> */}
+    {/* <Counter/> */}
+    {/* <UseE/> */}
+    <Todo/>
+    {/* <Mapping/> */}
     </div>
   );
 }
